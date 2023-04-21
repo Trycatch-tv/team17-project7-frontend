@@ -17,12 +17,14 @@ export default function Navbar() {
                     alt="Your Company"
                   />
                   <img
-                    className="hidden h-8 w-auto lg:block"
+                    className="hidden h-8 w-auto lg:block mx-8"
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                     alt="Your Company"
                   />
                 </div>
-                <h2>Catálogo de películas</h2>
+                <div>
+                  <h2 className='inline-block align-middle text-2xl font-sans font-medium'>Catálogo de películas</h2>
+                </div>
               </div>
             </div>
           </div>

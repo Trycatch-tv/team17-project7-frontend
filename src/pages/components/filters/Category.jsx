@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Category() {
     return (
-        <div className="relative w-1/3">
+        <div className="relative w-1/3 pr-2">
             <select className="w-full p-2 text-gray-500 bg-white border dark:border-violet-600 rounded-lg outline-none appearance-none focus:border-violet-600">
                 <option value={""} disabled selected>
                     Filtrar por categoria

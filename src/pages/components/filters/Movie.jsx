@@ -1,6 +1,6 @@
 export default function Movie() {
     return (
-        <form class="flex items-center w-1/3">
+        <form class="flex items-center w-1/3 pr-2">
             <label for="simple-search" class="sr-only">
                 Search
             </label>

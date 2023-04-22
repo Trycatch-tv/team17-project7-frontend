@@ -2,7 +2,7 @@ import { Disclosure } from '@headlessui/react'
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-gray-900 mb-10">
+    <Disclosure as="nav" className="bg-gray-900 mb-20">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">

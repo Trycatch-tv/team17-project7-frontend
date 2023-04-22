@@ -1,7 +1,7 @@
 export default function Main() {
     return (
         <>
-        <div className="flex flex-col mb-10">
+        <div className="flex flex-col mb-20">
             <div className="overflow-x-auto">
                     <div className="p-1.5 w-full mx-auto inline-block align-middle">
                         <div className="overflow-hidden border rounded-lg">

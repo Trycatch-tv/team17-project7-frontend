@@ -1,6 +1,6 @@
 export default function Add() {
     return (
-        <div>
+        <div className="mb-10">
             <button
                 type="button"
                 class="inline-flex items-center px-8 py-2 text-lg text-center rounded-lg text-rose-100 bg-violet-600 hover:bg-violet-500"

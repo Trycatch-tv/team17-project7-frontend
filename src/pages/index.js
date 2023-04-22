@@ -15,7 +15,7 @@ export default function Home() {
     <>
     <Navbar />
     <Add />
-    <div class="flex flex-nowrap">
+    <div class="flex flex-nowrap ml-2 mr-2 mb-10">
       <Movie />
       <Category  />
       <Gender />

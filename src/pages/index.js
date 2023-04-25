@@ -13,16 +13,18 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-    <Navbar />
-    <Add />
-    <div class="flex flex-nowrap ml-2 mr-2 mb-10">
-      <Movie />
-      <Category  />
-      <Gender />
-    </div>
-    
-    <Main/>
-    <Pagination />
+      <Navbar />
+      <main class="px-2 sm:px-6 lg:px-8">
+        <Add />
+        <div class="flex flex-nowrap mb-10">
+          <Movie />
+          <Category  />
+          <Gender />
+        </div>
+        
+        <Main/>
+        <Pagination />
+      </main>
     </>
   )
 }

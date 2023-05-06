@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-export default function Main() {
+export default function Main({ setModalOpen, setFormValues }) {
   const [movies, setMovies] = useState([])
   const [isLoading, setIsLoading] = useState(true)
 
@@ -22,8 +22,6 @@ export default function Main() {
       </div>
     )
   }
-
-  console.log(movies)
 
   return (
     <>
@@ -107,6 +105,17 @@ export default function Main() {
                         <td class="whitespace-nowrap px-6 py-4 rounded-lg flex">
                           <div>
                             <button
+                              onClick={() => {
+                                setModalOpen(true)
+                                setFormValues({
+                                  title: movie.title || '',
+                                  genre: movie.genres[0].id || '',
+                                  year: movie.year || '',
+                                  category: movie.categories[0].id || '',
+                                  director: movie.director || '',
+                                  synopsis: movie.synopsis || ''
+                                })
+                              }}
                               type="button"
                               class="inline-flex items-center mr-1 px-8 py-2 text-sm text-center rounded-lg text-rose-100 bg-violet-600 hover:bg-violet-500"
                             >
